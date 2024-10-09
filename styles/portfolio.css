@@ -9,6 +9,12 @@
 }
 
 /* Shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.dark-1{
+    color:#181818;
+}
 .dark-2{
     color:#474747;
 }
@@ -88,3 +94,33 @@ nav ul li{
 nav li a{
     text-decoration: none;
 }
+
+
+/*About me section style*/
+.about-container{
+    margin: 130px 230px;
+    padding: 125px 145px;
+    border-radius: 10px;
+}
+.about{
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-weight: bold;
+}
+
